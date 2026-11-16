@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.davidsmithgardencentre.co.uk/sitemap.xml

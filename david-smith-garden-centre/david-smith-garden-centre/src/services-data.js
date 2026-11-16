@@ -1,0 +1,21 @@
+// Plants & products – from the Garden Centre Guide listing and the client's own photos. CONFIRM the range with the client.
+module.exports = [
+  { id: 'bedding', icon: 'flower', img: 'greenhouse-bedding', alt: 'Greenhouse benches full of bedding plants in pots', title: 'Bedding & Patio Plants', price: '',
+    intro: 'Greenhouses full of colourful bedding and patio plants, ready to fill your borders, pots and window boxes.',
+    points: ['Seasonal bedding plants', 'Patio and container plants', 'Annuals in trays and pots', 'Plants for window boxes', 'New stock through the season'] },
+  { id: 'baskets', icon: 'heart', img: 'hanging-baskets', alt: 'Hanging baskets full of petunias and geraniums', title: 'Hanging Baskets', price: '',
+    intro: 'Our hanging baskets are packed with colour and grown on in the greenhouse, so they’re ready to hang.',
+    points: ['Ready-planted hanging baskets', 'Mixed colour schemes', 'Plants to make up your own', 'Baskets, liners and brackets', 'Ask us about ordering ahead'] },
+  { id: 'shrubs', icon: 'leaf', img: 'hydrangeas-shopfront', alt: 'Pink and green hydrangeas outside the garden centre', title: 'Trees, Shrubs & Perennials', price: '',
+    intro: 'Hydrangeas, shrubs, trees and hardy perennials that come back year after year.',
+    points: ['Flowering shrubs like hydrangeas', 'Trees for gardens of every size', 'Hardy perennials', 'Climbers and hedging', 'Advice on what grows where'] },
+  { id: 'seasonal', icon: 'sparkle', img: 'sunflowers-greenhouse', alt: 'Potted sunflowers on a wooden bench in the greenhouse', title: 'Seasonal Flowers & Houseplants', price: '',
+    intro: 'Something new every few weeks, from potted sunflowers in summer to houseplants all year round.',
+    points: ['Seasonal flowering pots', 'Houseplants', 'Cut flowers and gifts', 'Vegetable plants', 'Ask what’s just come in'] },
+  { id: 'compost', icon: 'shovel', img: 'hands-soil', alt: 'Hands holding rich compost', title: 'Compost, Lawn Care & Ponds', price: '',
+    intro: 'Everything to keep your garden healthy, with help lifting the heavy bags into your car.',
+    points: ['Compost and soil improvers', 'Lawn seed, feed and care', 'Pond supplies', 'Plant food and fertilisers', 'Loose bird seed'] },
+  { id: 'garden', icon: 'home', img: 'cottage-garden', alt: 'Cottage garden with flowers and seating', title: 'Pots, Furniture & Tools', price: '',
+    intro: 'Plant pots, garden furniture, tools, ornaments and varnishes to finish your garden.',
+    points: ['Plant pots and planters', 'Garden furniture', 'Garden tools', 'Ornaments', 'Wood varnishes and treatments'] },
+];

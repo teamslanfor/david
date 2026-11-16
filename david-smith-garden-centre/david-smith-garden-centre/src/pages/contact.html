@@ -1,0 +1,51 @@
+<!--meta
+{"key":"contact","path":"/contact/","title":"Contact & Directions | David Smith’s Garden Centre, Wilberfoss","description":"Find David Smith’s Garden Centre at Butts Lane, Hull Road, Wilberfoss, York YO41 5NT. Call 01759 388863 or email davidsmithnurseries@gmail.com."}
+-->
+<section class="page-head">
+  <img src="/assets/img/hydrangeas-shopfront.webp" alt="" width="958" height="1268">
+  <div class="container">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span aria-current="page">Contact</span></nav>
+    <h1>Contact &amp; directions</h1>
+    <p class="lead">Check stock, order a hanging basket or ask a gardening question.</p>
+  </div>
+</section>
+
+<section class="section" id="quote">
+  <div class="container contact-layout">
+    <aside class="location-card reveal">
+      <h2 style="font-size:1.5rem">Visit us</h2>
+      <ul class="info-list">
+        <li><span class="ic">{{icon:pin}}</span><div><small>Address</small><a href="{{mapsLink}}" target="_blank" rel="noopener">Butts Lane, Hull Road<br>Wilberfoss, York YO41 5NT</a></div></li>
+        <li><span class="ic">{{icon:phone}}</span><div><small>Phone</small><a href="{{site.phoneHref}}">{{site.phone}}</a></div></li>
+        <li><span class="ic">{{icon:mail}}</span><div><small>Email</small><a href="mailto:{{site.email}}">{{site.email}}</a></div></li>
+        <li><span class="ic">{{icon:clock}}</span><div><small>Opening hours</small><strong>Seasonal – please call to check</strong></div></li>
+      </ul>
+      <a href="{{site.headerCtaHref}}" target="_blank" rel="noopener" class="btn btn-white btn-block">{{icon:pin}}<span>Get directions</span></a>
+    </aside>
+    <div class="contact-form-card reveal">
+      <h2 style="font-size:1.5rem">Send an enquiry</h2>
+      <p style="color:var(--muted)">Fields marked <span style="color:var(--danger)">*</span> are required.</p>
+      <form id="quote-form" novalidate>
+        <div class="form-grid">
+          <div class="field"><label for="name">Full name <span class="req">*</span></label><input id="name" name="name" type="text" autocomplete="name" required maxlength="80"><span class="err" role="alert"></span></div>
+          <div class="field"><label for="phone">Phone <span class="req">*</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required maxlength="20" placeholder="01759 … or 07…"><span class="err" role="alert"></span></div>
+          <div class="field"><label for="email">Email <span class="req">*</span></label><input id="email" name="email" type="email" autocomplete="email" required maxlength="120"><span class="err" role="alert"></span></div>
+          <div class="field"><label for="service">Enquiry about</label><select id="service" name="service"><option value="">General enquiry</option>{{serviceOptions}}</select></div>
+          <div class="field full"><label for="message">Your message <span class="req">*</span></label><textarea id="message" name="message" required maxlength="2000" placeholder="E.g. Do you have any blue hydrangeas in stock? Or: I’d like to order two hanging baskets in pinks and purples."></textarea><span class="err" role="alert"></span></div>
+          <div class="hp" aria-hidden="true"><label for="_honey">Leave this empty</label><input id="_honey" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
+        </div>
+        <div class="form-foot">
+          <small data-form-note>We only use your details to reply to your enquiry.</small>
+          <button type="submit" class="btn btn-primary"><span class="spinner" aria-hidden="true"></span><span>Send enquiry</span><span class="btn-label-icon">{{icon:send}}</span></button>
+        </div>
+        <div class="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="map-frame reveal"><iframe title="Map showing David Smith’s Garden Centre, Butts Lane, Wilberfoss" src="https://maps.google.com/maps?q=Butts%20Lane%2C%20Wilberfoss%2C%20York%20YO41%205NT&amp;z=14&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+  </div>
+</section>
